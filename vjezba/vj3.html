@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Početak rada s CSS-om</title>
+        <style>.highlight {
+    color: white;
+    background-color: red;
+    padding: 8px;
+    border-radius: 4px;
+}
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.alert {
+    color: white;
+    background-color: crimson;
+    border-radius: 4px;
+}
+
+.success {
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+}
+
+</style>
+    </head>
+
+    <body>
+
+<p class="alert">paragraf 1</p>
+<p class="highlight">paragraf 2</p>
+<p class="success">paragraf 3</p>
+
+<style>
+
+/* Element zauzima veličinu prozora */
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Element prilagođava veličinu svom sadržaju */
+div {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Element zauzima punu veličinu dostupnog prostora */
+div {
+    width: 100%;
+    height: 100%;
+}
+
+/* Element ima minimalnu veličinu prema sadržaju */
+div {
+    min-width: 50px;  /* primjer minimalne širine */
+    min-height: 50px; /* primjer minimalne visine */
+}
+
+/* Element ima maksimalnu veličinu, ali može se smanjivati */
+div {
+    max-width: 600px;  /* primjer maksimalne širine */
+    max-height: 400px; /* primjer maksimalne visine */
+    width: 100%;
+    height: 100%;
+}
+
+/* Element veličine 1px */
+div {
+    width: 1px;
+    height: 1px;
+}
+    
+</style>
+    </body>
+</html>
